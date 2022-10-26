@@ -22,8 +22,14 @@ classes = functions.initializeClasses(grades_html, name_html)
 
 class_names = classes[0]
 class_grades = classes[1]
-class_grades_ = [i.replace("%", "") for i in class_grades]
-class_grades = [float(i) for i in class_grades_]
+print(class_grades)
+
+class_grades = [str(i) for i in class_grades]
+
+
+class_grades = [i.replace("%", "") for i in class_grades]
+
+class_grades = [float(i) for i in class_grades]
 
 # For Debugging
 print(f"Current Grades at {current_time}:\n")
