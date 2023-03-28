@@ -1,3 +1,14 @@
 venv
 .idea
 __pycache__
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg-info
+*.egg
+dist
+build
+d
+.vscode
